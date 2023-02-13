@@ -1,0 +1,182 @@
+Feb 12, 2023 8:34:33 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.server
+FINE: Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.Patient] is set to [FIELD].
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The target entity (reference) class for the one to many mapping element [field treatments] is being defaulted to: class edu.stevens.cs548.clinic.data.Treatment.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.Treatment] is set to [FIELD].
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The target entity (reference) class for the many to one mapping element [field provider] is being defaulted to: class edu.stevens.cs548.clinic.data.Provider.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The target entity (reference) class for the many to one mapping element [field patient] is being defaulted to: class edu.stevens.cs548.clinic.data.Patient.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The target entity (reference) class for the one to many mapping element [field followupTreatments] is being defaulted to: class edu.stevens.cs548.clinic.data.Treatment.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.RadiologyTreatment] is set to [FIELD].
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.Provider] is set to [FIELD].
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The target entity (reference) class for the one to many mapping element [field treatments] is being defaulted to: class edu.stevens.cs548.clinic.data.Treatment.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.DrugTreatment] is set to [FIELD].
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.SurgeryTreatment] is set to [FIELD].
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The access type for the persistent class [class edu.stevens.cs548.clinic.data.PhysiotherapyTreatment] is set to [FIELD].
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.Patient] is being defaulted to: Patient.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The table name for entity [class edu.stevens.cs548.clinic.data.Patient] is being defaulted to: PATIENT.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [patientId] is being defaulted to: PATIENTID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [dob] is being defaulted to: DOB.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [name] is being defaulted to: NAME.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [id] is being defaulted to: ID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.RadiologyTreatment] is being defaulted to: RadiologyTreatment.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.Treatment] is being defaulted to: Treatment.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The table name for entity [class edu.stevens.cs548.clinic.data.Treatment] is being defaulted to: TREATMENT.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [diagnosis] is being defaulted to: DIAGNOSIS.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [id] is being defaulted to: ID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [treatmentId] is being defaulted to: TREATMENTID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The discriminator column name for the root inheritance class [edu.stevens.cs548.clinic.data.Treatment] is being defaulted to: DTYPE.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [treatmentDates] is being defaulted to: TREATMENTDATES.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.Provider] is being defaulted to: Provider.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The table name for entity [class edu.stevens.cs548.clinic.data.Provider] is being defaulted to: PROVIDER.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [providerId] is being defaulted to: PROVIDERID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [npi] is being defaulted to: NPI.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [name] is being defaulted to: NAME.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [id] is being defaulted to: ID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.DrugTreatment] is being defaulted to: DrugTreatment.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [dosage] is being defaulted to: DOSAGE.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [endDate] is being defaulted to: ENDDATE.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [startDate] is being defaulted to: STARTDATE.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [drug] is being defaulted to: DRUG.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [frequency] is being defaulted to: FREQUENCY.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.SurgeryTreatment] is being defaulted to: SurgeryTreatment.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [surgeryDate] is being defaulted to: SURGERYDATE.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [dischargeInstructions] is being defaulted to: DISCHARGEINSTRUCTIONS.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The alias name for the entity class [class edu.stevens.cs548.clinic.data.PhysiotherapyTreatment] is being defaulted to: PhysiotherapyTreatment.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The column name for element [treatmentDates] is being defaulted to: TREATMENTDATES.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The primary key column name for the mapping element [field provider] is being defaulted to: ID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The foreign key column name for the mapping element [provider] is being defaulted to: PROVIDER_ID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The primary key column name for the mapping element [field patient] is being defaulted to: ID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The foreign key column name for the mapping element [patient] is being defaulted to: PATIENT_ID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The join table name for the many to many mapping [field followupTreatments] is being defaulted to: TREATMENT_TREATMENT.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The source primary key column name for the many to many mapping [field followupTreatments] is being defaulted to: ID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The source foreign key column name for the many to many mapping [followupTreatments] is being defaulted to: Treatment_ID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The target primary key column name for the many to many mapping [field followupTreatments] is being defaulted to: ID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.metadata
+CONFIG: The target foreign key column name for the many to many mapping [followupTreatments] is being defaulted to: followupTreatments_ID.
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user
+INFO: EclipseLink, version: Eclipse Persistence Services - 4.0.0.v202210051929
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.connection
+FINE: connecting(DatabaseLogin(
+	platform=>PostgreSQLPlatform
+	user name=> "cs548user"
+	datasource URL=> "jdbc:postgresql:///54.167.68.86:5432/cs548"
+))
+Feb 12, 2023 8:34:34 PM org.postgresql.Driver parseURL
+WARNING: JDBC URL contains too many / characters: jdbc:postgresql:///54.167.68.86:5432/cs548
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user
+SEVERE: 
+Local Exception Stack: 
+Exception [EclipseLink-4002] (Eclipse Persistence Services - 4.0.0.v202210051929): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: Unable to parse URL jdbc:postgresql:///54.167.68.86:5432/cs548
+Error Code: 0
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:334)
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:329)
+	at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:113)
+	at org.eclipse.persistence.sessions.DatasourceLogin.connectToDatasource(DatasourceLogin.java:174)
+	at org.eclipse.persistence.internal.databaseaccess.DatasourceAccessor.connectInternal(DatasourceAccessor.java:359)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.connectInternal(DatabaseAccessor.java:318)
+	at org.eclipse.persistence.internal.databaseaccess.DatasourceAccessor.connect(DatasourceAccessor.java:451)
+	at org.eclipse.persistence.sessions.server.ConnectionPool.buildConnection(ConnectionPool.java:219)
+	at org.eclipse.persistence.sessions.server.ConnectionPool.startUp(ConnectionPool.java:504)
+	at org.eclipse.persistence.sessions.server.ServerSession.connect(ServerSession.java:530)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.login(DatabaseSessionImpl.java:824)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryProvider.login(EntityManagerFactoryProvider.java:261)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:771)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getAbstractSession(EntityManagerFactoryDelegate.java:221)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.createEntityManagerImpl(EntityManagerFactoryDelegate.java:328)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManagerImpl(EntityManagerFactoryImpl.java:343)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:306)
+	at edu.stevens.cs548.clinic.data.main.App.connectToDatabase(App.java:242)
+	at edu.stevens.cs548.clinic.data.main.App.<init>(App.java:192)
+	at edu.stevens.cs548.clinic.data.main.App.main(App.java:149)
+Caused by: org.postgresql.util.PSQLException: Unable to parse URL jdbc:postgresql:///54.167.68.86:5432/cs548
+	at org.postgresql.Driver.connect(Driver.java:274)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:190)
+	at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:102)
+	... 17 more
+
+Feb 12, 2023 8:34:34 PM org.eclipse.persistence.session./file:/Users/jessicakammann/Desktop/CS548/Assignment3/Assignment-Code 9/clinic-data-model/export/clinicdb.jar_clinic-domain_url=jdbc:postgresql:///54.167.68.86:5432/cs548_user=cs548user.ejb
+SEVERE: 
+Local Exception Stack: 
+Exception [EclipseLink-4002] (Eclipse Persistence Services - 4.0.0.v202210051929): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: Unable to parse URL jdbc:postgresql:///54.167.68.86:5432/cs548
+Error Code: 0
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:334)
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:329)
+	at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:113)
+	at org.eclipse.persistence.sessions.DatasourceLogin.connectToDatasource(DatasourceLogin.java:174)
+	at org.eclipse.persistence.internal.databaseaccess.DatasourceAccessor.connectInternal(DatasourceAccessor.java:359)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.connectInternal(DatabaseAccessor.java:318)
+	at org.eclipse.persistence.internal.databaseaccess.DatasourceAccessor.connect(DatasourceAccessor.java:451)
+	at org.eclipse.persistence.sessions.server.ConnectionPool.buildConnection(ConnectionPool.java:219)
+	at org.eclipse.persistence.sessions.server.ConnectionPool.startUp(ConnectionPool.java:504)
+	at org.eclipse.persistence.sessions.server.ServerSession.connect(ServerSession.java:530)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.login(DatabaseSessionImpl.java:824)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryProvider.login(EntityManagerFactoryProvider.java:261)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:771)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getAbstractSession(EntityManagerFactoryDelegate.java:221)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.createEntityManagerImpl(EntityManagerFactoryDelegate.java:328)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManagerImpl(EntityManagerFactoryImpl.java:343)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:306)
+	at edu.stevens.cs548.clinic.data.main.App.connectToDatabase(App.java:242)
+	at edu.stevens.cs548.clinic.data.main.App.<init>(App.java:192)
+	at edu.stevens.cs548.clinic.data.main.App.main(App.java:149)
+Caused by: org.postgresql.util.PSQLException: Unable to parse URL jdbc:postgresql:///54.167.68.86:5432/cs548
+	at org.postgresql.Driver.connect(Driver.java:274)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:190)
+	at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:102)
+	... 17 more
+

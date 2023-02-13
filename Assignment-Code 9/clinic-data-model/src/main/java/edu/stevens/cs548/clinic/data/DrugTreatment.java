@@ -8,19 +8,20 @@ import java.time.LocalDate;
  * 
  */
 // TODO JPA annotations
-
+@Entity
+@Table(name = "drugtreatment")
 public class DrugTreatment extends Treatment implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
 	private String drug;
-	
+
 	private float dosage;
-	
+
 	private LocalDate startDate;
-	
+
 	private LocalDate endDate;
-	
+
 	private int frequency;
 
 	public String getDrug() {
@@ -62,7 +63,6 @@ public class DrugTreatment extends Treatment implements Serializable {
 	public void setFrequency(int frequency) {
 		this.frequency = frequency;
 	}
-	
 
 	public DrugTreatment() {
 		super();
