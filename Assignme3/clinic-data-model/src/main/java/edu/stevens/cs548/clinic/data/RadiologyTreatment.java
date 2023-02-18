@@ -19,6 +19,7 @@ public class RadiologyTreatment extends Treatment {
 
 	// TODO including order by date
 	@OrderBy
+	@ElementCollection
 	protected List<LocalDate> treatmentDates;
 
 	public void addTreatmentDate(LocalDate date) {

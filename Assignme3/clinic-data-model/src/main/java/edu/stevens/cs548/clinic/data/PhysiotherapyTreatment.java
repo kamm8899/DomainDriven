@@ -1,6 +1,7 @@
 package edu.stevens.cs548.clinic.data;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 import jakarta.persistence.*;
@@ -15,10 +16,14 @@ public class PhysiotherapyTreatment extends Treatment {
 
 	// TODO (including order by date)
 	@OrderBy
+	@ElementCollection
 	protected List<LocalDate> treatmentDates;
 
 	public void addTreatmentDate(LocalDate date) {
 		treatmentDates.add(date);
 	}
-
+	public PhysiotherapyTreatment() {
+		super();
+		treatmentDates = new ArrayList<>();
+	}
 }
